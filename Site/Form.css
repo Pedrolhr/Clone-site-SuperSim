@@ -1,0 +1,329 @@
+body{
+    display: grid;
+    font-family: sans-serif;
+    background-color: #F2F2F2;
+}
+.formtotal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+
+}
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    flex-wrap:wrap;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.menu .options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorange;
+    padding: 10px;
+    color: white;
+    width: 100px;
+}
+.menu .options2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorange;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    position: relative;
+    left: 30px;
+}
+.menu img{
+    position: relative;
+    bottom: 70px;
+    left: 20px;
+}
+.titulos h1{
+    position: relative;
+    right: 300px;
+    top: 50px;
+    flex-wrap: wrap;
+    width: 200px;
+    color: #FFA30F;
+    font-weight: bold;
+    font-size: 25pt;
+}
+.titulos h2{
+    position: relative;
+    right: 150px;
+    bottom: 17px;
+    font-size: 25pt;
+    color: #2a2b35;
+    font-weight: bold;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: #F2F2F2;
+}
+form .input1{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 80px;
+}
+form .input1 label{
+    position: relative;
+    left: 30px;
+    bottom: 20px;
+}
+form .input2{
+    position: relative;
+    right: 85px;
+}
+form .input2 input{
+    width: 860px;
+    position: relative;
+    top: 40px;
+}
+form .input2 label{
+    position: relative;
+    left: 45px;
+    top: 10px;
+}
+
+form .input3 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 320px;
+}
+form .input3 label{
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+form .input3 input{
+    position: relative;
+    top: 80px;
+}
+
+form .input4 input{
+    position: relative;
+    top:37px;
+    left: 100px;
+    z-index: 5;
+}
+form .input4 label{
+    position: relative;
+    left: 220px;
+    top: 10px;
+}
+form .input5 input{
+    position: relative;
+    top: 80px;
+    right: 165px;
+    width: 870px;
+}
+form .input5 label{
+    position: relative;
+    top: 50px;
+    left: 50px
+}
+form .input6 input{
+    position: relative;
+    top: 120px;
+    width: 880px;
+    right: 190px;
+}
+form .input6 label{
+    position: relative;
+    top: 90px;
+    left: 80px;
+}
+form .input7  label{
+    position: relative;
+    top: 120px;
+    left: 40px;
+}
+form .input7 select{
+    position: relative;
+    top: 160px;
+    right: 140px;
+    width: 890px;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid black;
+    background-color: #F2F2F2;
+}
+form .input8{
+    display:flex;
+    position: relative;
+    right: 230px;
+}
+form .input8 label{
+    position: relative;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 500px;
+    top: 200px;
+    left: 20px;
+}
+form .input8  input{
+    position: relative;
+    width: 20px;
+    height: 30px;
+    top: 200px;
+}
+form button{
+    position: relative;
+    top:260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorange;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    border-radius: 9px;
+    border-color: darkorange;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #011d4a;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 300px;
+    padding: 30px;
+}
+footer .informacoes{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+
+}
+footer .informacoes .infor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .informacoes .infor1 a{
+    flex-wrap: wrap;
+    width: 200px;
+    color:white;
+    margin-left: 40px;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer .informacoes .infor2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .informacoes .infor2 a{
+    flex-wrap: wrap;
+    width: 200px;
+    color:white;
+    margin-left: 40px;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer .informacoes .infor3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .informacoes .infor3 a{
+    flex-wrap: wrap;
+    width: 200px;
+    color:white;
+    margin-left: 40px;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer .informacoes .infor4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .informacoes .infor4 a{
+    flex-wrap: wrap;
+    width: 200px;
+    color:white;
+    margin-left: 40px;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer .informacoes .infor5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .informacoes .infor5 a{
+    flex-wrap: wrap;
+    width: 200px;
+    color:white;
+    margin-left: 40px;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer .informacoes .infor2 a:first-child{
+    color: #FFA30F;
+
+}
+footer .informacoes .infor3 a:first-child{
+    color: #FFA30F;
+
+}
+footer .informacoes .infor5 a:first-child{
+    color: #FFA30F;
+
+}
+footer hr{
+    background-color: #00ffff;
+    height: 15px;
+    border: 0;
+    border-bottom: 1px solid cyan;
+}
+footer p{
+    display: flex;
+    color: white;
+    font-size:12px;
+    flex-wrap: wrap;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+footer .sifrao{
+    position: relative;
+    right: 120px;
+}
