@@ -301,3 +301,120 @@ banners p2{
     top: 130px;
     left: 100px;
 }
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #011d4a;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 300px;
+    padding: 30px;
+}
+footer .informacoes{
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+
+}
+footer .informacoes .infor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .informacoes .infor1 a{
+    flex-wrap: wrap;
+    width: 200px;
+    color:white;
+    margin-left: 40px;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer .informacoes .infor2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .informacoes .infor2 a{
+    flex-wrap: wrap;
+    width: 200px;
+    color:white;
+    margin-left: 40px;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer .informacoes .infor3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .informacoes .infor3 a{
+    flex-wrap: wrap;
+    width: 200px;
+    color:white;
+    margin-left: 40px;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer .informacoes .infor4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .informacoes .infor4 a{
+    flex-wrap: wrap;
+    width: 200px;
+    color:white;
+    margin-left: 40px;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer .informacoes .infor5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+footer .informacoes .infor5 a{
+    flex-wrap: wrap;
+    width: 200px;
+    color:white;
+    margin-left: 40px;
+    line-height: 25px;
+    text-decoration: none;
+}
+footer .informacoes .infor2 a:first-child{
+    color: #FFA30F;
+
+}
+footer .informacoes .infor3 a:first-child{
+    color: #FFA30F;
+
+}
+footer .informacoes .infor5 a:first-child{
+    color: #FFA30F;
+
+}
+footer hr{
+    background-color: #00ffff;
+    height: 15px;
+    border: 0;
+    border-bottom: 1px solid cyan;
+}
+footer p{
+    display: flex;
+    color: white;
+    font-size:12px;
+    flex-wrap: wrap;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+}
+footer .sifrao{
+    position: relative;
+    right: 120px;
+}

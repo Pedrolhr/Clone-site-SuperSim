@@ -21,46 +21,46 @@
              <h1>Vamos começar!</h1>
              <h2>Fale um pouco sobre você</h2>
          </div>
-        <form>
+        <form action="/criar-usuario" method="post">
             <div class="input1">
                 <label>CPF</label>
-                <input type="text">
+                <input id="CPF" type="text">
                 <label>Celular</label>
-                <input type="tel">
+                <input id="celular" type="tel">
             </div>
             <div class="input2">
                 <label>Email</label>
-                <input type="text">
+                <input id="email" type="text">
             </div>
             <div class="input3">
                 <label>Senha</label>
-                <input type="text">
+                <input id="senha" type="text">
             </div>
             <div class="input4">
                 <label>Confirme sua senha</label>
-                <input type="text">
+                <input id="confirmacaosenha" type="text">
             </div>
             <div class="input5">
                 <label>Quanto você recebe por mês?</label>
-                <input type="text">
+                <input id="renda" type="text">
             </div>
             <div class="input6">
                 <label>Que dia você recebe seu pagamento?</label>
-                <input type="number">
+                <input id="dia" type="number">
             </div>
             <div class="input7">
                 <label>Qual sua fonte de renda?</label>
-                <select>
-                    <option selected></option>
-                    <option>CLT</option>
-                    <option>Funcionário público</option>
-                    <option>Autônomo</option>
-                    <option>Micro-empresário</option>
-                    <option>Empresário</option>
+                <select id="fonte">
+                    <option value="" selected></option>
+                    <option value="clt"  >CLT</option>
+                    <option value="funcionario" >Funcionário público</option>
+                    <option value="autonomo" >Autônomo</option>
+                    <option value="micro">Micro-empresário</option>
+                    <option value="empresario">Empresário</option>
                 </select>
             </div>
             <div class="input8">
-                <input type="checkbox">
+                <input id="concordar" type="checkbox">
                 <label>Li e concordo com os termos de uso, e a política de privacidade e autorizo a consulta e o compartilhamento com a SuperSim de informações do SCR - Banco Central do Brasil, a consulta ao cadastro positivo e declaro não ser uma pessoa politicamente exposta.</label>
             </div>
             <button type="submit" onclick="botao()">CONTINUAR</button>
